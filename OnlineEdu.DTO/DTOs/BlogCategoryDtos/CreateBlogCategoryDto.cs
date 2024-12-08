@@ -11,6 +11,5 @@ namespace OnlineEdu.DTO.DTOs.BlogCategoryDtos
     public class CreateBlogCategoryDto
     {
         public string Name { get; set; }
-        public List<ResultBlogDto> Blogs { get; set; }
     }
 }
